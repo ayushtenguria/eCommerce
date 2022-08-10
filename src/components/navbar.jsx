@@ -17,10 +17,10 @@ const Navbar = () => {
 
         </div>
       </header>
-      <div>
-            <img className="w-full " src={Cover} alt="Cover" />
-            hello
-        </div>
+      <div className="justify-center  ">
+            <img className="w-screen " src={Cover} alt="Cover" />
+            <p className="-mt-80 m-60 font-extrabold  font-serif text-6xl text-white z-10">SALE 50% OFF</p>          
+      </div>
         </>
     )
 }
